@@ -1,0 +1,111 @@
+
+
+#container{
+    width:1400px;
+    height: 700px;
+    margin: 20px auto;
+    background-image: url('—Pngtree—carnival interface design web material_917157.jpg');
+}
+#calculator{
+    width: 325px;
+    height:525px;
+    margin: auto;
+    position: relative;
+    top: 20px;
+    background-color: cornsilk;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+#result{
+    width: 325px;
+    height:130px;
+    background-color: white;
+    text-align: right;
+ border-radius: 8px;
+}
+#input{
+    /* width: 375px; */
+    height: 70px;
+    margin: 20px;
+    position: relative;
+    top: 30px;
+    font-size: 30px;
+}
+#output{
+    /* width: 375px; */
+    height: 60px;
+    margin: 20px;
+    font-size: 40px;
+}
+#keywords{
+   
+    }
+ .number{
+    width: 50px;
+    height: 50px;
+   margin: 15px;
+   float: left;
+  border-radius: 50%;
+  font-size: 25px;
+  border-width: 0;
+  background-color: cornsilk;
+}
+.number:hover{
+    background-color: rgb(171, 169, 160);
+    font-size: 20px;
+}
+#blank:hover{ background-color: cornsilk;
+    font-size: 25px;}
+ .operator{
+    width: 50px;
+    height: 50px;
+   margin: 15px;
+   float: left;
+   font-size: 25px;
+   border-width: 0;
+  border-radius: 50%;
+}
+#C,#CE,#Modulo{
+    background-color: rgb(236, 234, 225);
+
+}
+#C:hover{ background-color: rgb(171, 169, 160);
+font-size: 28px;
+}
+#CE:hover{  background-color: rgb(171, 169, 160);
+font-size: 28px;
+}
+#Modulo:hover{  background-color: rgb(171, 169, 160);
+font-size: 28px;
+}
+
+#Div{background-color: cyan;
+
+}
+#Div:hover{background-color:rgb(17, 231, 231);
+  font-size: 30px;
+}
+#Mult{background-color:#cf48cf;
+
+}
+#Mult:hover{background-color: #790779;
+    font-size: 30px;
+}
+#Add{background-color: #4f77e6;
+
+}
+#Add:hover{background-color: #2958d8;
+    font-size: 30px;
+}
+#Subt{background-color: #7bc741;
+
+}
+#Subt:hover{background-color: #7ee72e;
+    font-size: 30px;
+}
+#Equal{background-color: fuchsia;
+
+}
+#Equal:hover{background-color: rgb(233, 32, 233);
+    font-size: 30px;
+}
